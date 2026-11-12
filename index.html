@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section">
+        <div class="container">
+            <div class="hero-content">
+                <img src="https://images.unsplash.com/photo-1507003210461-60e93669ba5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Profile Picture" class="hero-image">
+                <h1 class="hero-title">John Doe</h1>
+                <h2 class="hero-subtitle">Web Developer & Designer</h2>
+                <p class="hero-description">I'm a passionate web developer with expertise in creating beautiful, functional websites and applications. With years of experience, I've developed skills in both frontend and backend development.</p>
+                <a href="#projects" class="btn">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm John, a full-stack web developer specializing in creating websites with a focus on user experience and clean design.</p>
+                    <p>I enjoy turning complex problems into simple, beautiful, and functional websites. My journey in web development started 5 years ago, and I've been working as a freelance developer and part of small agencies since then.</p>
+                    <p>My skills include:</p>
+                    <div class="skills">
+                        <span class="skill">HTML</span>
+                        <span class="skill">CSS</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">React</span>
+                        <span class="skill">Node.js</span>
+                        <span class="skill">UI/UX Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Project 1" class="project-image">
+                    <div class="project-info">
+                        <h3>E-commerce Website</h3>
+                        <p>A fully responsive e-commerce platform with product filtering, cart functionality, and secure checkout.</p>
+                        <p>Technologies: HTML, CSS, JavaScript, Node.js, Express, MongoDB</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1460925399001-d3d510398192?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Project 2" class="project-image">
+                    <div class="project-info">
+                        <h3>Portfolio Template</h3>
+                        <p>A customizable portfolio template with dark/light mode, animated sections, and responsive design.</p>
+                        <p>Technologies: HTML, CSS Grid, Flexbox, CSS Variables, Media Queries</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1522542550221-1b9fe93c646d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Project 3" class="project-image">
+                    <div class="project-info">
+                        <h3>Weather Dashboard</h3>
+                        <p>A weather application that displays current conditions and forecasts for any city using OpenWeather API.</p>
+                        <p>Technologies: HTML, CSS, JavaScript, Fetch API, Responsive Design</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your message"></textarea>
+                </div>
+                <button class="btn">Send Message</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#">📱</a>
+                <a href="#">💼</a>
+                <a href="#">📸</a>
+                <a href="#">👨‍💻</a>
+            </div>
+            <p class="copyright">© 2023 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
